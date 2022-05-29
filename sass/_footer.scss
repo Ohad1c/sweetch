@@ -1,0 +1,28 @@
+.footer {
+  background-color: $color-primary-dark;
+  color: $color-light-blue;
+  font-size: 14px;
+  padding: 20px 40px;
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    // display: inline-block;
+    li {
+      display: inline-block;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__social-media {
+    display: inline-block;
+    i {
+      color: $color-light-blue;
+    }
+  }
+}

@@ -1,0 +1,177 @@
+.sticky-form {
+  background-color: white;
+  max-width: 454px;
+  margin: auto;
+
+  @media only screen and (min-width: 1200px) {
+    position: fixed;
+    top: 73px;
+    right: 3%;
+    box-shadow: 0px 1.88767px 18.8767px rgba(25, 17, 82, 0.15);
+    border-radius: 18.8767px;
+    height: 632px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    right: 10%;
+  }
+
+  @media only screen and (min-width: 1700px) {
+    right: 17%;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-control,
+  .form-select {
+    background-color: $color-grey-light-2;
+    border: none;
+    color: $color-primary-dark;
+    padding: 10px 12px;
+    &::placeholder {
+      color: $color-primary-dark;
+      opacity: 0.5;
+    }
+  }
+
+  .form-control:focus,
+  .form-select:focus,
+  .form-check-input:checked:focus {
+    box-shadow: 0 0 0 0.25rem rgba(25, 17, 82, 0.25);
+  }
+  //   .form-select {
+  //     &:first-child {
+  //       color: $color-primary-dark;
+  //       background-color: $color-grey-light-2;
+  //       //   opacity: 0.5;
+  //       border: none;
+  //     }
+  //   }
+
+  .was-validated .form-control:invalid {
+    background-image: none;
+  }
+
+  input[type="email"] {
+    background-image: none !important;
+  }
+
+  .password-box {
+    position: relative;
+  }
+  .password-box i {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    opacity: 0.2;
+  }
+
+  .step-1 .form-check-label {
+    font-size: 11px;
+    line-height: 18.88px;
+    color: $color-primary-dark-05;
+    padding-left: 10px;
+    a {
+      color: inherit;
+    }
+  }
+
+  .form-check-input {
+    width: 22px;
+    height: 22px;
+    background-color: $color-grey-light-2;
+    border: none;
+    &:checked[type="checkbox"] {
+      background-image: url(../img/checked.png);
+      background-size: 12px;
+    }
+  }
+
+  .btn {
+    background-color: $color-grey-light-2;
+    border: none;
+    color: $color-primary-dark-05;
+  }
+
+  //   &:invalid {
+
+  //   }
+
+  .step-3 .checkboxes {
+    .form-check {
+      margin-bottom: 10px;
+    }
+    label {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 19px;
+      color: $color-primary-dark;
+      padding-top: 5px;
+      padding-left: 10px;
+    }
+  }
+
+  .step-4 {
+    .digits-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      @media only screen and (max-width: 992px) {
+        gap: 5px;
+      }
+      input {
+        border: 1.5px solid rgba(34, 202, 236, 0.36);
+        border-radius: 5.70739px;
+        font-weight: 400;
+        font-size: 30px;
+        padding: 5px;
+        color: $color-primary-dark;
+        width: 52px;
+        height: 49px;
+        text-align: center;
+        font-weight: bold;
+
+        @media only screen and (max-width: 992px) {
+          width: 44px;
+          height: 47px;
+          font-size: 24px;
+        }
+      }
+    }
+
+    span {
+    }
+    h3 {
+    }
+    p:first-of-type {
+      margin-bottom: 80px;
+      @media only screen and (max-width: 992px) {
+        margin-bottom: 50px;
+      }
+    }
+    p:last-of-type {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 100px;
+      @media only screen and (max-width: 992px) {
+        margin-bottom: 150px;
+      }
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  .step-5 {
+    i {
+      color: #22e185;
+      font-size: 25px;
+    }
+  }
+}

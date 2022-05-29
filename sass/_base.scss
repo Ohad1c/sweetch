@@ -1,0 +1,68 @@
+// COLOR VARIABLES
+$color-primary: #352c98;
+$color-primary-dark: #191152;
+$color-primary-dark-05: #19115280; //rgba(25, 17, 82, 0.5);
+$color-primary-light: #5035d1;
+
+$color-secondary: #22caec;
+$color-secondary-light: rgba(34, 202, 236, 0.2);
+
+$color-grey-light-1: #c1b7ff;
+$color-grey-light-2: #f1effb;
+
+$color-light-blue: rgba(244, 246, 250, 0.4);
+
+// $color-grey-dark-1: #54483a;
+// $color-grey-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: -apple-system, BlinkMacSystemFont, sans-serif; // 700 400 500
+
+// $font-display: "Josefin Sans", sans-serif;
+
+// html {
+// }
+
+body {
+  // font-family: $font-primary;
+  font-family: $font-primary;
+  color: $color-primary-dark;
+}
+
+.container {
+  @media only screen and (min-width: 1200px) {
+    &.container-17 {
+      max-width: 1700px;
+    }
+    &.container-15 {
+      max-width: 1500px;
+    }
+  }
+}
+
+.btn {
+  color: #5843da;
+  border: 1px solid #5843da;
+  border-radius: 48px;
+  padding: 12px 20px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 350px;
+
+  @media only screen and (max-width: 992px) {
+    padding: 9px 20px;
+    max-width: 298px;
+  }
+
+  &:hover {
+    color: #5843da;
+  }
+}
+
+.btn-2 {
+  background-color: $color-secondary;
+  color: $color-primary-light;
+  font-size: 14px;
+  border: none;
+  // max-width: 291px;
+}
