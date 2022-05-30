@@ -5,7 +5,7 @@
 
   @media only screen and (max-width: 992px) {
     text-align: center;
-    padding: 50px 25px;
+    padding: 50px 15px;
   }
 
   &__text {
@@ -161,6 +161,8 @@
       height: 8px;
       background-color: $color-primary-light;
       border-radius: 50%;
+      margin-right: 5px;
+      margin-left: 5px;
     }
   }
 
