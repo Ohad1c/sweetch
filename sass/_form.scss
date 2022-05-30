@@ -45,14 +45,6 @@
   .form-check-input:checked:focus {
     box-shadow: 0 0 0 0.25rem rgba(25, 17, 82, 0.25);
   }
-  //   .form-select {
-  //     &:first-child {
-  //       color: $color-primary-dark;
-  //       background-color: $color-grey-light-2;
-  //       //   opacity: 0.5;
-  //       border: none;
-  //     }
-  //   }
 
   .was-validated .form-control:invalid {
     background-image: none;
@@ -72,13 +64,20 @@
     opacity: 0.2;
   }
 
-  .step-1 .form-check-label {
-    font-size: 11px;
-    line-height: 18.88px;
-    color: $color-primary-dark-05;
-    padding-left: 10px;
-    a {
-      color: inherit;
+  .step-1 {
+    input:first-of-type {
+      @media only screen and (max-width: 992px) {
+        margin-bottom: 15px;
+      }
+    }
+    .form-check-label {
+      font-size: 11px;
+      line-height: 18.88px;
+      color: $color-primary-dark-05;
+      padding-left: 10px;
+      a {
+        color: inherit;
+      }
     }
   }
 
