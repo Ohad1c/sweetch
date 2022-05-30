@@ -38,11 +38,11 @@ body {
   padding: 12px 20px;
   font-weight: 500;
   display: inline-block;
-  max-width: 350px;
+  // max-width: 350px;
 
   @media only screen and (max-width: 992px) {
     padding: 9px 20px;
-    max-width: 298px;
+    // max-width: 298px;
   }
 
   &:hover {
