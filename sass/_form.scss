@@ -43,10 +43,6 @@
     }
   }
 
-  .form-select:invalid {
-    color: green;
-  }
-
   .form-control:focus,
   .form-select:focus,
   .form-check-input:checked:focus {
@@ -188,8 +184,4 @@
       font-weight: 400;
     }
   }
-}
-
-select.form-control.first-option-selected {
-  color: red;
 }
