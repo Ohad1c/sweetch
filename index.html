@@ -1,708 +1,478 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#352c98" />
-    <title>sweetch</title>
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- bootstrap icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
-      integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- my css -->
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
 
-  <body>
-    <!-- header -->
-    <header class="header">
-      <div class="showcase-section__logo text-center">
-        <a href="" class="d-none d-xl-block"
-          ><img src="img/logo.png" alt="logo"
-        /></a>
-      </div>
-      <div class="container container-14">
-        <div class="row">
-          <div class="col-12 col-lg-7">
-            <div class="header__text">
-              <span class="mt-5">Welcome lovely human</span>
-              <h1 class="heading-1 mb-4 mt-4">
-                Ready to take the first step in improving your health?
-              </h1>
-              <p class="lead">
-                You can change your behavior for the long run. Focus on setting
-                realistic goals and making small steps to get there with
-                Sweetch.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#352c98" />
+  <title>sweetch</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- my css -->
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
 
-    <!-- sticky from -->
-    <section class="form-section px-4 py-5 p-xl-0">
-      <form
-        class="sticky-form px-4 px-xl-5 py-xl-4 needs-validation"
-        novalidate
-      >
-        <!-- step 1 -->
-        <div class="step-1">
-          <div class="top-bar d-flex justify-content-between mb-3">
-            <h3 class="d-inline-block">let's get started</h3>
-            <div class="d-flex gap-1">
-              <div class="nav-bullets d-inline">
-                <i class="bi bi-circle-fill"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-              </div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <div class="row form-group">
-            <div class="col-12 col-lg-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="First name"
-                aria-label="First name"
-                required
-              />
-            </div>
-            <div class="col-12 col-lg-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Last name"
-                aria-label="Last name"
-                required
-              />
-            </div>
-          </div>
-
-          <div class="row form-group">
-            <div class="col">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Date of birth"
-                aria-label="Date of birth"
-                required
-              />
-            </div>
-            <div class="col">
-              <select class="form-select" required>
-                <option selected>Gender</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="row form-group">
-            <div class="col-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="+1"
-                aria-label="pre"
-                required
-              />
-            </div>
-            <div class="col-9">
-              <input
-                type="tel"
-                class="form-control"
-                placeholder="Phone number"
-                aria-label="Phone number"
-                required
-              />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              placeholder="Email"
-              aria-describedby="emailHelp"
-              required
-            />
-            <p class="invalid-feedback">
-              <i class="bi bi-exclamation-circle text-danger me-2"></i>Please
-              enter a valid email
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="showcase-section__logo text-center">
+      <a href="" class="d-none d-xl-block"><img src="img/logo.png" alt="logo" /></a>
+    </div>
+    <div class="container container-14">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <div class="header__text">
+            <span class="mt-5">Welcome lovely human</span>
+            <h1 class="heading-1 mb-4 mt-4">
+              Ready to take the first step in improving your health?
+            </h1>
+            <p class="lead">
+              You can change your behavior for the long run. Focus on setting
+              realistic goals and making small steps to get there with
+              Sweetch.
             </p>
           </div>
-
-          <div class="form-group password-box">
-            <input
-              type="password"
-              class="form-control"
-              id="Password1"
-              placeholder="Password"
-              required
-            />
-            <i class="bi bi-eye-fill"></i>
-          </div>
-
-          <div class="form-group password-box">
-            <input
-              type="password"
-              class="form-control"
-              id="Password2"
-              placeholder="Password"
-              required
-            />
-            <i class="bi bi-eye-fill"></i>
-          </div>
-
-          <div class="form-group form-check my-4">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="termsOfUse"
-              required
-            />
-            <label class="form-check-label" for="termsOfUse"
-              >By registering to the Sweetch App you agree to our
-              <a href="">Terms of Use</a>. Your data will be processed in
-              accordance with our <a href="">Privacy Policy</a>. We will collect
-              your data, including data regarding your health, and analyze it to
-              create a personalized program</label
-            >
-          </div>
-          <button type="submit" class="btn w-100">Let’s go!</button>
-        </div>
-
-        <!-- step 2 -->
-        <div class="step-2 text-center d-none">
-          <div class="top-bar d-flex justify-content-between mb-2">
-            <i class="bi bi-arrow-left-short"></i>
-            <div class="d-flex gap-1">
-              <div class="nav-bullets d-inline">
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle-fill"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-              </div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <h3 class="heading-3">What’s your address?</h3>
-          <p class="heading-3-lead">
-            We’ll be sending your Sweetch kit to this address! Please include
-            street, city, state, country and zip code
-          </p>
-          <input
-            type="text"
-            class="form-control mb-5"
-            aria-label="Address"
-            required
-          />
-          <img src="img/package.png" alt="package" class="mb-5 w-75" />
-          <button type="submit" class="btn w-100">next</button>
-        </div>
-
-        <!-- step 3 -->
-        <div class="step-3 d-none">
-          <div class="top-bar d-flex justify-content-between mb-2">
-            <i class="bi bi-arrow-left-short"></i>
-            <div class="d-flex gap-1">
-              <div class="nav-bullets d-inline">
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle-fill"></i>
-                <i class="bi bi-circle"></i>
-              </div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <h3 class="heading-3 text-center px-3">
-            Have you been diagnosed with any of the following conditions?
-          </h3>
-          <p class="heading-3-lead text-center">Choose all that apply</p>
-          <div class="checkboxes mb-4">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox1"
-                checked
-              />
-              <label class="form-check-label" for="checkbox1">
-                Type 2 Diabetes
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox2"
-              />
-              <label class="form-check-label" for="checkbox2">
-                Type 1 Diabetes
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox3"
-              />
-              <label class="form-check-label" for="checkbox3">
-                Prediabetes
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox4"
-              />
-              <label class="form-check-label" for="checkbox4"> Obesity </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox5"
-              />
-              <label class="form-check-label" for="checkbox5">
-                High blood pressure
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox6"
-              />
-              <label class="form-check-label" for="checkbox6">
-                High cholesterol
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox7"
-              />
-              <label class="form-check-label" for="checkbox7">
-                Heart attack
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox8"
-              />
-              <label class="form-check-label" for="checkbox8">
-                Coronary artery disease
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox9"
-              />
-              <label class="form-check-label" for="checkbox9">
-                Heart failure
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkbox10"
-              />
-              <label class="form-check-label" for="checkbox10">
-                None of the above
-              </label>
-            </div>
-          </div>
-          <button type="submit" class="btn w-100">Submit</button>
-        </div>
-
-        <!-- step 4 -->
-        <div class="step-4 text-center d-none">
-          <div class="top-bar d-flex justify-content-between mb-2">
-            <i class="bi bi-arrow-left-short"></i>
-            <div class="d-flex gap-1">
-              <div class="nav-bullets d-inline">
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle"></i>
-                <i class="bi bi-circle-fill"></i>
-              </div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <span class="my-4 d-block">Thank you, "Name"</span>
-          <h3 class="heading-4 mb-4 px-4">
-            Your verification code has been sent to your inbox or via text!
-          </h3>
-          <p class="px-lg-5">
-            Please enter the 6-digit code sent to "email address" or "phone
-            number"
-          </p>
-          <div class="digits-container mb-4">
-            <input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            />
-            <input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            /><input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            />
-            <input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            />
-            <input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            />
-            <input
-              type="text"
-              maxlength="1"
-              size="1"
-              min="0"
-              max="9"
-              pattern="[0-9]{1}"
-            />
-          </div>
-          <p>
-            Didn’t get it? <a href="#">Resend Code</a> or
-            <a href="#">Change Email</a>
-          </p>
-          <button type="submit" class="btn btn-2 w-100">Verify</button>
-        </div>
-        <!-- step 5 form complited -->
-        <div class="step-5 text-center d-none">
-          <div class="top-bar mb-2">
-            <i class="bi bi-arrow-left-short"></i>
-            <i class="bi bi-check-circle-fill"></i>
-          </div>
-          <span class="d-block mb-3 mt-5">Woohoo!</span>
-          <h3 class="heading-4 px-4 mb-3">
-            Thank you for verifying your contact info. you are all set!
-          </h3>
-          <p>Download the Sweetch app here</p>
-          <img
-            src="img/apple-app-store.png"
-            alt="apple app store"
-            class="mb-4 mt-2 d-block mx-auto"
-          />
-          <img
-            src="img/google-play-store.png"
-            alt="google app store"
-            class="mb-4 d-block mx-auto"
-          />
-          <span class="d-block mb-2">or scan the QR code</span>
-          <img src="img/qr-code.png" alt="scan qr code" />
-        </div>
-      </form>
-    </section>
-
-    <!-- about section -->
-    <section class="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-12 col-xl-7 position-relative">
-            <img src="img/phone.png" alt="phone" class="d-none d-lg-block" />
-            <div class="about-section__text">
-              <h2 class="heading-2 mb-2 mb-lg-4">
-                Every step of your unique health journey
-              </h2>
-              <p class="lead">
-                Sweetch is the trusted voice that helps you achieve your health
-                goal with just the right message in the right tone, time, and
-                context, every step of your health journey.
-              </p>
-            </div>
-            <img
-              src="img/phone-mobile.png"
-              alt="phone"
-              class="d-lg-none mt-5 phone-mobile"
-            />
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <!-- features section -->
-    <section class="features-section">
-      <div class="container">
-        <div class="row">
+  <!-- sticky from -->
+  <section class="form-section px-4 py-5 p-xl-0">
+    <form class="sticky-form px-4 px-xl-5 py-xl-4 needs-validation" novalidate>
+      <!-- step 1 -->
+      <div class="step-1">
+        <div class="top-bar d-flex justify-content-between mb-3">
+          <h3 class="d-inline-block">let's get started</h3>
+          <div class="d-flex gap-1">
+            <div class="nav-bullets d-inline">
+              <i class="bi bi-circle-fill"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+            </div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <div class="row form-group">
           <div class="col-12 col-lg-6">
-            <h2 class="heading-2 mb-lg-3">With the Sweetch app you get:</h2>
-            <ul class="features-section__list">
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Personalized automated programs and
-                plans
-              </li>
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Holistic approach
-              </li>
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Connected devices
-              </li>
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Health insights to drive long-term
-                behavior change
-              </li>
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Tips, tools & lessons
-              </li>
-              <li class="d-flex">
-                <i class="bi bi-check"></i>Actionable and personalized
-                notifications
-              </li>
-            </ul>
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name" required />
+          </div>
+          <div class="col-12 col-lg-6">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required />
+          </div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Date of birth" aria-label="Date of birth" required />
+          </div>
+          <div class="col">
+            <select class="form-select" required>
+              <option selected>Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-3">
+            <input type="text" class="form-control" placeholder="+1" aria-label="pre" required />
+          </div>
+          <div class="col-9">
+            <input type="tel" class="form-control" placeholder="Phone number" aria-label="Phone number" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email" aria-describedby="emailHelp" required />
+          <p class="invalid-feedback">
+            <i class="bi bi-exclamation-circle text-danger me-2"></i>Please
+            enter a valid email
+          </p>
+        </div>
+
+        <div class="form-group password-box">
+          <input type="password" class="form-control" id="Password1" placeholder="Password" required />
+          <i class="bi bi-eye-fill"></i>
+        </div>
+
+        <div class="form-group password-box">
+          <input type="password" class="form-control" id="Password2" placeholder="Password" required />
+          <i class="bi bi-eye-fill"></i>
+        </div>
+
+        <div class="form-group form-check my-4">
+          <input type="checkbox" class="form-check-input" id="termsOfUse" required />
+          <label class="form-check-label" for="termsOfUse">By registering to the Sweetch App you agree to our
+            <a href="">Terms of Use</a>. Your data will be processed in
+            accordance with our <a href="">Privacy Policy</a>. We will collect
+            your data, including data regarding your health, and analyze it to
+            create a personalized program</label>
+        </div>
+        <button type="submit" class="btn w-100">Let’s go!</button>
+      </div>
+
+      <!-- step 2 -->
+      <div class="step-2 text-center d-none">
+        <div class="top-bar d-flex justify-content-between mb-2">
+          <i class="bi bi-arrow-left-short"></i>
+          <div class="d-flex gap-1">
+            <div class="nav-bullets d-inline">
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle-fill"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+            </div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <h3 class="heading-3">What’s your address?</h3>
+        <p class="heading-3-lead">
+          We’ll be sending your Sweetch kit to this address! Please include
+          street, city, state, country and zip code
+        </p>
+        <input type="text" class="form-control mb-5" aria-label="Address" required />
+        <img src="img/package.png" alt="package" class="mb-5 w-75" />
+        <button type="submit" class="btn w-100">next</button>
+      </div>
+
+      <!-- step 3 -->
+      <div class="step-3 d-none">
+        <div class="top-bar d-flex justify-content-between mb-2">
+          <i class="bi bi-arrow-left-short"></i>
+          <div class="d-flex gap-1">
+            <div class="nav-bullets d-inline">
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle-fill"></i>
+              <i class="bi bi-circle"></i>
+            </div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <h3 class="heading-3 text-center px-3">
+          Have you been diagnosed with any of the following conditions?
+        </h3>
+        <p class="heading-3-lead text-center">Choose all that apply</p>
+        <div class="checkboxes mb-4">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox1" checked />
+            <label class="form-check-label" for="checkbox1">
+              Type 2 Diabetes
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox2" />
+            <label class="form-check-label" for="checkbox2">
+              Type 1 Diabetes
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox3" />
+            <label class="form-check-label" for="checkbox3">
+              Prediabetes
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox4" />
+            <label class="form-check-label" for="checkbox4"> Obesity </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox5" />
+            <label class="form-check-label" for="checkbox5">
+              High blood pressure
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox6" />
+            <label class="form-check-label" for="checkbox6">
+              High cholesterol
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox7" />
+            <label class="form-check-label" for="checkbox7">
+              Heart attack
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox8" />
+            <label class="form-check-label" for="checkbox8">
+              Coronary artery disease
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox9" />
+            <label class="form-check-label" for="checkbox9">
+              Heart failure
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox10" />
+            <label class="form-check-label" for="checkbox10">
+              None of the above
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn w-100">Submit</button>
+      </div>
+
+      <!-- step 4 -->
+      <div class="step-4 text-center d-none">
+        <div class="top-bar d-flex justify-content-between mb-2">
+          <i class="bi bi-arrow-left-short"></i>
+          <div class="d-flex gap-1">
+            <div class="nav-bullets d-inline">
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle"></i>
+              <i class="bi bi-circle-fill"></i>
+            </div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <span class="my-4 d-block">Thank you, "Name"</span>
+        <h3 class="heading-4 mb-4 px-4">
+          Your verification code has been sent to your inbox or via text!
+        </h3>
+        <p class="px-lg-5">
+          Please enter the 6-digit code sent to "email address" or "phone
+          number"
+        </p>
+        <div class="digits-container mb-4">
+          <input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+          <input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+          <input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+          <input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+          <input type="text" maxlength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+        </div>
+        <p>
+          Didn’t get it? <a href="#">Resend Code</a> or
+          <a href="#">Change Email</a>
+        </p>
+        <button type="submit" class="btn btn-2 w-100">Verify</button>
+      </div>
+      <!-- step 5 form complited -->
+      <div class="step-5 text-center d-none">
+        <div class="top-bar mb-2">
+          <i class="bi bi-arrow-left-short"></i>
+          <i class="bi bi-check-circle-fill"></i>
+        </div>
+        <span class="d-block mb-3 mt-5">Woohoo!</span>
+        <h3 class="heading-4 px-4 mb-3">
+          Thank you for verifying your contact info. you are all set!
+        </h3>
+        <p>Download the Sweetch app here</p>
+        <img src="img/apple-app-store.png" alt="apple app store" class="mb-4 mt-2 d-block mx-auto" />
+        <img src="img/google-play-store.png" alt="google app store" class="mb-4 d-block mx-auto" />
+        <span class="d-block mb-2">or scan the QR code</span>
+        <img src="img/qr-code.png" alt="scan qr code" />
+      </div>
+    </form>
+  </section>
+
+  <!-- about section -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-xl-7 position-relative">
+          <img src="img/phone.png" alt="phone" class="d-none d-lg-block" />
+          <div class="about-section__text">
+            <h2 class="heading-2 mb-2 mb-lg-4">
+              Every step of your unique health journey
+            </h2>
+            <p class="lead">
+              Sweetch is the trusted voice that helps you achieve your health
+              goal with just the right message in the right tone, time, and
+              context, every step of your health journey.
+            </p>
+          </div>
+          <img src="img/phone-mobile.png" alt="phone" class="d-lg-none mt-5 phone-mobile" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- features section -->
+  <section class="features-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="heading-2 mb-lg-3">With the Sweetch app you get:</h2>
+          <ul class="features-section__list">
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Personalized automated programs and
+              plans
+            </li>
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Holistic approach
+            </li>
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Connected devices
+            </li>
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Health insights to drive long-term
+              behavior change
+            </li>
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Tips, tools & lessons
+            </li>
+            <li class="d-flex">
+              <i class="bi bi-check"></i>Actionable and personalized
+              notifications
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- package section -->
+  <section class="package-section">
+    <div class="container container-15">
+      <div class="row">
+        <div class="col-12 col-xl-7 d-lg-flex gap-5">
+          <div class="package-section__img">
+            <img src="img/package.png" alt="package" />
+          </div>
+
+          <div class="package-section__text pt-5 d-flex flex-column align-self-center">
+            <h2 class="heading-2 mb-3">Your personal Sweetch kit</h2>
+            <p class="lead">
+              Your Sweetch kit will be delivered straight to your home and
+              will include a digital scale and tape measure.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- package section -->
-    <section class="package-section">
-      <div class="container container-15">
-        <div class="row">
-          <div class="col-12 col-xl-7 d-lg-flex gap-5">
-            <div class="package-section__img">
-              <img src="img/package.png" alt="package" />
+  <!-- testimonials section -->
+  <section class="testimonials-section">
+    <div class="container container-17">
+      <div class="row">
+        <div class="col-12 col-xl-6 position-relative">
+          <img src="img/testimonial-img.png" alt="testimonial-img" class="carousel__smilies" />
+          <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators d-lg-none">
+              <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div
-              class="package-section__text pt-5 d-flex flex-column align-self-center"
-            >
-              <h2 class="heading-2 mb-3">Your personal Sweetch kit</h2>
-              <p class="lead">
-                Your Sweetch kit will be delivered straight to your home and
-                will include a digital scale and tape measure.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- testimonials section -->
-    <section class="testimonials-section">
-      <div class="container container-17">
-        <div class="row">
-          <div class="col-12 col-xl-6 position-relative">
-            <img
-              src="img/testimonial-img.png"
-              alt="testimonial-img"
-              class="carousel__smilies"
-            />
-            <div
-              id="carouselControls"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators d-lg-none">
-                <button
-                  type="button"
-                  data-bs-target="#carouselControls"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselControls"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselControls"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/testimonial-preson-1.png" alt="testimonial preson 1" class="mb-4" />
+                <p class="lead">
+                  “I truly don’t know what I would do without this app. Since
+                  using the app, I don’t forget anything. Not only that, but I
+                  feel motivated. Sweetch came into my life at the most
+                  perfect time when I needed it the most. ”
+                </p>
+                <span>Shana Lark</span>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img
-                    src="img/testimonial-preson-1.png"
-                    alt="testimonial preson 1"
-                    class="mb-4"
-                  />
-                  <p class="lead">
-                    “I truly don’t know what I would do without this app. Since
-                    using the app, I don’t forget anything. Not only that, but I
-                    feel motivated. Sweetch came into my life at the most
-                    perfect time when I needed it the most. ”
-                  </p>
-                  <span>Shana Lark</span>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="img/testimonial-preson-1.png"
-                    alt="testimonial preson 1"
-                    class="mb-4"
-                  />
-                  <p class="lead">
-                    “I truly don’t know what I would do without this app. Since
-                    using the app, I don’t forget anything. Not only that, but I
-                    feel motivated. Sweetch came into my life at the most
-                    perfect time when I needed it the most. ”
-                  </p>
-                  <span>Shana Lark</span>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
-                  <img
-                    src="img/testimonial-preson-1.png"
-                    alt="testimonial preson 1"
-                    class="mb-4"
-                  />
-                  <p class="lead">
-                    “I truly don’t know what I would do without this app. Since
-                    using the app, I don’t forget anything. Not only that, but I
-                    feel motivated. Sweetch came into my life at the most
-                    perfect time when I needed it the most. ”
-                  </p>
-                  <span>Shana Lark</span>
-                </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="img/testimonial-preson-1.png" alt="testimonial preson 1" class="mb-4" />
+                <p class="lead">
+                  “I truly don’t know what I would do without this app. Since
+                  using the app, I don’t forget anything. Not only that, but I
+                  feel motivated. Sweetch came into my life at the most
+                  perfect time when I needed it the most. ”
+                </p>
+                <span>Shana Lark</span>
               </div>
-              <button
-                class="carousel-control-prev d-none d-lg-block"
-                type="button"
-                data-bs-target="#carouselControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next d-none d-lg-block"
-                type="button"
-                data-bs-target="#carouselControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="img/testimonial-preson-1.png" alt="testimonial preson 1" class="mb-4" />
+                <p class="lead">
+                  “I truly don’t know what I would do without this app. Since
+                  using the app, I don’t forget anything. Not only that, but I
+                  feel motivated. Sweetch came into my life at the most
+                  perfect time when I needed it the most. ”
+                </p>
+                <span>Shana Lark</span>
+              </div>
             </div>
-            <div class="button-container text-center">
-              <!-- <a href="#" class="btn btn-2 d-lg-none">Get started</a> -->
-              <a href="#">
-                <button type="button" class="btn btn-2 d-lg-none w-100">
-                  Get started
-                </button>
-              </a>
-            </div>
+            <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="button-container text-center">
+            <!-- <a href="#" class="btn btn-2 d-lg-none">Get started</a> -->
+            <a href="#">
+              <button type="button" class="btn btn-2 d-lg-none w-100">
+                Get started
+              </button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- questions section -->
-    <section class="questions-section">
-      <div class="container">
-        <div class="questions-section__inner">
-          <h2 class="heading-2 mb-4">Have questions?</h2>
-          <a href="#" class="btn w-100">Learn more</a>
-        </div>
+  <!-- questions section -->
+  <section class="questions-section">
+    <div class="container">
+      <div class="questions-section__inner">
+        <h2 class="heading-2 mb-4">Have questions?</h2>
+        <a href="#" class="btn w-100">Learn more</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- footer  -->
-    <footer
-      class="footer d-flex justify-content-center justify-content-lg-between"
-    >
-      <span class="d-none d-lg-block">© 2022 Sweetch. All right reserved.</span>
-      <div class="d-flex flex-column-reverse flex-lg-row footer__inner">
-        <ul class="footer__list d-flex gap-4">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-        </ul>
-        <span class="d-lg-none">© 2022 Sweetch. All right reserved.</span>
-        <div class="footer__social-media ms-lg-5">
-          <a href="" class="me-2"><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-        </div>
+  <!-- footer  -->
+  <footer class="footer d-flex justify-content-center justify-content-lg-between">
+    <span class="d-none d-lg-block">© 2022 Sweetch. All right reserved.</span>
+    <div class="d-flex flex-column-reverse flex-lg-row footer__inner">
+      <ul class="footer__list d-flex gap-4">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+      <span class="d-lg-none">© 2022 Sweetch. All right reserved.</span>
+      <div class="footer__social-media ms-lg-5">
+        <a href="" class="me-2"><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="js/bootstrap.min.js"></script>
-    <!-- form validations -->
-    <script type="text/javascript">
-      // JavaScript for disabling form submissions if there are invalid fields
-      (function () {
-        "use strict";
+  <script src="js/bootstrap.min.js"></script>
+  <!-- form validations -->
+  <script type="text/javascript">
+    // JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      "use strict";
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.querySelectorAll(".needs-validation");
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll(".needs-validation");
 
-        // Loop over them and prevent submission
-        Array.prototype.slice.call(forms).forEach(function (form) {
-          form.addEventListener(
-            "submit",
-            function (event) {
-              if (!form.checkValidity()) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms).forEach(function(form) {
+        form.addEventListener(
+          "submit",
+          function(event) {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
 
-              form.classList.add("was-validated");
-            },
-            false
-          );
-        });
-      })();
-    </script>
-  </body>
+            form.classList.add("was-validated");
+          },
+          false
+        );
+      });
+    })();
+
+  </script>
+</body>
+
 </html>
