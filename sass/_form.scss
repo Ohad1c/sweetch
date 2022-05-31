@@ -162,10 +162,6 @@
       }
     }
 
-    span {
-    }
-    h3 {
-    }
     p:first-of-type {
       margin-bottom: 80px;
       @media only screen and (max-width: 992px) {
@@ -189,6 +185,11 @@
     i {
       color: #22e185;
       font-size: 25px;
+    }
+
+    span,
+    p {
+      font-weight: 400;
     }
   }
 }
