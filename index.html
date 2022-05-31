@@ -52,9 +52,21 @@
         class="sticky-form px-4 px-xl-5 py-xl-4 needs-validation"
         novalidate
       >
+        <!-- <i class="bi bi-arrow-left-short"></i> -->
         <!-- step 1 -->
-        <div class="step-1">
-          <h3 class="mb-4">let's get started</h3>
+        <div class="step-1 d-none">
+          <div class="top-bar d-flex justify-content-between mb-3">
+            <h3 class="d-inline-block">let's get started</h3>
+            <div class="d-flex gap-1">
+              <div class="nav-bullets d-inline">
+                <i class="bi bi-circle-fill"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+              </div>
+              <i class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
           <div class="row form-group">
             <div class="col-12 col-lg-6">
               <input
@@ -173,6 +185,18 @@
 
         <!-- step 2 -->
         <div class="step-2 text-center d-none">
+          <div class="top-bar d-flex justify-content-between mb-2">
+            <i class="bi bi-arrow-left-short"></i>
+            <div class="d-flex gap-1">
+              <div class="nav-bullets d-inline">
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle-fill"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+              </div>
+              <i class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
           <h3 class="heading-3">What’s your address?</h3>
           <p class="heading-3-lead">
             We’ll be sending your Sweetch kit to this address! Please include
@@ -190,7 +214,19 @@
 
         <!-- step 3 -->
         <div class="step-3 d-none">
-          <h3 class="heading-3 text-center">
+          <div class="top-bar d-flex justify-content-between mb-2">
+            <i class="bi bi-arrow-left-short"></i>
+            <div class="d-flex gap-1">
+              <div class="nav-bullets d-inline">
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle-fill"></i>
+                <i class="bi bi-circle"></i>
+              </div>
+              <i class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <h3 class="heading-3 text-center px-3">
             Have you been diagnosed with any of the following conditions?
           </h3>
           <p class="heading-3-lead text-center">Choose all that apply</p>
@@ -310,11 +346,23 @@
 
         <!-- step 4 -->
         <div class="step-4 text-center d-none">
+          <div class="top-bar d-flex justify-content-between mb-2">
+            <i class="bi bi-arrow-left-short"></i>
+            <div class="d-flex gap-1">
+              <div class="nav-bullets d-inline">
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle"></i>
+                <i class="bi bi-circle-fill"></i>
+              </div>
+              <i class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
           <span class="my-4 d-block">Thank you, "Name"</span>
-          <h3 class="heading-4 mb-4">
+          <h3 class="heading-4 mb-4 px-2">
             Your verification code has been sent to your inbox or via text!
           </h3>
-          <p>
+          <p class="px-lg-5">
             Please enter the 6-digit code sent to "email address" or "phone
             number"
           </p>
@@ -374,8 +422,11 @@
           <button type="submit" class="btn btn-2 w-100">Verify</button>
         </div>
         <!-- step 5 form complited -->
-        <div class="step-5 text-center d-none">
-          <i class="bi bi-check-circle-fill"></i>
+        <div class="step-5 text-center">
+          <div class="top-bar mb-2">
+            <i class="bi bi-arrow-left-short"></i>
+            <i class="bi bi-check-circle-fill"></i>
+          </div>
           <span class="d-block mb-3 mt-5">Woohoo!</span>
           <h3 class="heading-4 mb-3">
             Thank you for verifying your contact info. you are all set!
