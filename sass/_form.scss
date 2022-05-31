@@ -84,9 +84,17 @@
       padding-left: 16px;
       @media only screen and (max-width: 992px) {
         font-size: 12px;
+        line-height: 15px;
+        padding-left: 7px;
       }
       a {
         color: inherit;
+      }
+    }
+
+    .form-check-input {
+      @media only screen and (max-width: 450px) {
+        margin-top: 30px;
       }
     }
   }
