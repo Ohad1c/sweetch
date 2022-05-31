@@ -18,13 +18,13 @@
     }
 
     h2 {
-      max-width: 400px;
+      max-width: 360px;
       @media only screen and (max-width: 992px) {
         margin: 0 auto;
         max-width: fit-content;
       }
       @media only screen and (max-width: 600px) {
-        max-width: 267px;
+        max-width: 260px;
       }
     }
 
@@ -103,7 +103,7 @@
   }
 
   p {
-    max-width: 380px;
+    max-width: 370px;
     @media only screen and (max-width: 992px) {
       margin: 0 auto;
       padding-inline: 20px;

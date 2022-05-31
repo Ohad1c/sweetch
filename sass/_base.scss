@@ -14,7 +14,24 @@ $color-grey-light-2: #f1effb;
 $color-light-blue: rgba(244, 246, 250, 0.4);
 
 // FONT VARIABLES
-$font-primary: -apple-system, BlinkMacSystemFont, sans-serif; // 700 400 500
+// $font-primary: -apple-system, BlinkMacSystemFont, sans-serif; // 700 400 500
+@font-face {
+  font-family: Calibri;
+  src: url(../fonts/Calibri-Light.ttf) format(truetype);
+  font-weight: thin;
+}
+@font-face {
+  font-family: Calibri;
+  src: url(../fonts/Calibri-Regular.ttf) format(truetype);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Calibri;
+  src: url(../fonts/Calibri-Bold.TTF) format(truetype);
+  font-weight: bold;
+}
+
+$font-primary: Calibri;
 
 body {
   font-family: $font-primary;
